@@ -196,7 +196,7 @@ body, html {
    ========================================= */
 .special-credits-black { background-color: #111111; color: #ffffff; padding: 70px 20px; text-align: center; margin-top: 60px; }
 .credits-logo-container { margin-top: 50px; }
-.credits-logo-container img { height: 90px; width: auto; display: block; margin: 0 auto; filter: brightness(0) invert(1); }
+.credits-logo-container img { height: 60px; width: auto; display: block; margin: 0 auto; filter: brightness(0) invert(1); }
 .copyright-text { font-size: 11px; color: #777; margin-top: 15px; letter-spacing: 0.5px; font-family: Arial, sans-serif; }
 .credits-main-title { font-family: 'Georgia', serif; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-top: 0; margin-bottom: 40px; }
 .credit-block { margin-bottom: 25px; display: flex; flex-direction: column; align-items: center; }
