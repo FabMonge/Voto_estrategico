@@ -15,7 +15,6 @@ body, html {
    ========================================= */
 .mega-nota-container {
     width: 100%;
-    height: 65vh;
     position: relative;
     overflow: hidden;
     background-color: #111;
@@ -24,8 +23,6 @@ body, html {
 .mega-nota-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center 15%; /* Prioriza el rostro del candidato */
     display: block;
 }
 
