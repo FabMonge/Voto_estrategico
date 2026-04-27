@@ -328,3 +328,6 @@ body, html {
     margin: 20px auto 5px auto; /* El 5px abajo lo mantiene pegado a la fuente */
     padding: 0 20px;
 }
+
+
+.kicker img { height: 35px; width: auto; display: block; max-width: 100%; }
