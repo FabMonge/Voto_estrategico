@@ -39,17 +39,17 @@
         #clever-45754-sticky-footer,
         #clever-45754-1475206-sticky-footer-shadow,
         #elcomercio_zocalo,
-#merlin-widget-root{
+        #merlin-widget-root{
             display: none !important;
             height: 0 !important;
         }  
         .nav-d__main-scroll.scrolled{
             z-index: 9999;
         }
-      .skin-template-model0 {
-		      top: 100px !important;
-		      z-index: -1 !important;
-		    }
+        .skin-template-model0 {
+            top: 100px !important;
+            z-index: -1 !important;
+        }
         body{
             overflow-y: scroll !important;
         }
@@ -59,7 +59,47 @@
         .tp-modal-open{
             overflow: auto !important;
         }
-#
+
+/* ========================================================
+           ESCUDO ANTI PRONOTE.CSS (ARC)
+           Forzamos las tipografías, negritas y cursivas de ECData
+           ======================================================== */
+        
+        /* 1. Proteger textos, negritas y cursivas de los artículos (Estilo Editorial / Primera Imagen) */
+        .story-text p, .intro-text {
+            font-family: 'Georgia', 'Times New Roman', serif !important;
+            font-weight: 400 !important;
+        }
+        .story-text strong, .story-text b, strong, b {
+            font-family: 'Georgia', 'Times New Roman', serif !important;
+            font-weight: bold !important; /* Aquí bajamos el grosor para igualar la primera imagen */
+        }
+        .story-text i, .story-text em, i, em {
+            font-family: 'Georgia', 'Times New Roman', serif !important;
+            font-style: italic !important;
+        }
+
+        /* 2. Proteger Titulares y subtítulos (Georgia) */
+        .headline, .subheadline, .story-text h2, .anio-titulo, .credits-main-title {
+            font-family: 'Georgia', 'Times New Roman', serif !important;
+        }
+        .headline { font-weight: 900 !important; }
+        .subheadline { font-weight: 400 !important; }
+        .story-text h2, .anio-titulo { font-weight: bold !important; }
+
+        /* 3. Proteger los números y textos del interactivo (D3) - Estos SÍ se quedan en Arial */
+        .data-label, .loss-label, .legend-party-name, .cand-name, .cand-pct {
+            font-weight: 900 !important;
+            font-family: 'Arial', sans-serif !important;
+        }
+        .pp-label, .party-name-label {
+            font-weight: 600 !important;
+            font-family: 'Arial', sans-serif !important;
+        }
+        .data-clarification, .legend-title {
+            font-style: italic !important;
+            font-family: 'Georgia', serif !important;
+        }
     </style> 
 
 </head>
@@ -162,11 +202,8 @@
         <p>Javier Albán coincide:</p>
         <p><i>“Me parece que lo que hay detrás [de la prohibición de publicar encuestas] es una idea paternalista de que la gente debe votar sinceramente, no según lo que los demás están pensando. Lo cierto es que, así como es válido votar sinceramente, también es válido votar estratégicamente. Cuando tienes mejor información, tienes más posibilidad de tomar mejores decisiones, desde lo que consideras una buena decisión”</i>, sostiene. </p>
 
-
-
     </article>
     <div class="data-clarification">* Datos actualizados al 27 de abril del 2026. </div>
-
 
     <footer class="special-credits-black">    
         <h3 class="credits-main-title">Créditos</h3>
